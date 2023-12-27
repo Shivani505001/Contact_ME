@@ -7,8 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
         .mb-3 {
-            padding-left: 15px;  /* Adjust the value according to your preference */
-            padding-right: 15px; /* Adjust the value according to your preference */
+            padding-left: 35px;  /* Adjust the value according to your preference */
+            padding-right: 35px; /* Adjust the value according to your preference */
         }
     </style>
 
@@ -16,11 +16,24 @@
   <body>
      <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Navbar</span>
+          <span class="navbar-brand mb-0 h1"></span>
         </div>
       </nav>
       <br>
-    <h1 class = 'text-center'>Contact Form</h1>
+    
+
+    <div class="mb-3">
+      <h2>About Me</h2>
+      <p>Hi!</p>
+      <p>I am Shivani.  I'm now pursuing a BTech in computer science with a cybersecurity concentration at IIIT Kottayam.
+        My current focus lies in mastering Django for web development, and I am actively engaged in creating dynamic and robust websites. My journey also involves delving into the realm of Python for Data Science exploration.
+        I have experience with front-end development and design, so I can offer a variety of skills to my projects. Outside the realm of technology, I love to travel, and I prefer beaches to forests, coffee to tea, and sunsets to sunrises.
+      </p>
+
+      <p>My email : arishenapalli21bcy6@iiitkottayam.ac.in</p>
+    </div>
+<br>
+    <h2 class="mb-3">Contact Form</h2>
 <form class="" method ='post' >
     {% csrf_token %}
     <div class="mb-3">
@@ -40,9 +53,10 @@
       <input type='submit' class ='btn btn-success btn-lg mt-1ml-4'>
       </div>
     </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    
   </body>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
