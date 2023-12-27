@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-r8!!)q)-pjy4k^-l@d_@-l@7ok&bu6bt7a*@r$n!p8l(*wkdib
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vecerl.app']
 
 
 # Application definition
